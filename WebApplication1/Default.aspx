@@ -11,8 +11,9 @@
 
     <div class="row">
         <div class="col-md-4">
-            <h2>&nbsp;<asp:TextBox ID="TextBox1" runat="server" Height="41px" OnTextChanged="TextBox1_TextChanged" Width="246px"></asp:TextBox>
-            </h2>
+            <p>
+                <asp:TextBox ID="TextBox3" runat="server" OnTextChanged="TextBox3_TextChanged"></asp:TextBox>
+            </p>
         </div>
         <div class="col-md-4">
             <h2>
@@ -20,8 +21,10 @@
             </h2>
         </div>
         <div class="col-md-4">
-            <p>
-                &nbsp;</p>
+            <h2>
+                <asp:TextBox ID="TextBox2" runat="server" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
+                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Submit" />
+            </h2>
         </div>
     </div>
 
