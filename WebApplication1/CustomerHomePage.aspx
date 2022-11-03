@@ -30,7 +30,9 @@
             <br />
             <asp:Table ID="Table1" runat="server">
             </asp:Table>
+            <asp:Label ID="Label3" runat="server" Text="Collections Test"></asp:Label>
             <br />
+            <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Collections" />
             <br />
             <br />
             <br />

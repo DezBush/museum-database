@@ -18,5 +18,10 @@ namespace WebApplication1
         {
            // Label1.Text = TextBox1.Text + ", welcome to Visual Studio!";
         }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("https://museuminterface.azurewebsites.net/Collections.aspx");
+        }
     }
 }
