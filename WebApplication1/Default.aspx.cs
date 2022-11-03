@@ -34,10 +34,7 @@ namespace WebApplication1
             {
                 string userName = TextBox3.Text;
                 string password = TextBox2.Text;
-                int authLevel = 1;
-                int authLevel2 = 2;
                 SqlDataReader db;
-                SqlDataReader db2;
                 SqlCommand verify = new SqlCommand("museumSchema.VerifyCredentialsExist");
                 museumConn.Open();
                 verify.Connection = museumConn;
@@ -76,7 +73,7 @@ namespace WebApplication1
 
         protected void TextBox3_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
